@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">   
+        <style>
+         .container {
+            position: relative;
+          
+        }
+        #overlay {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: greenyellow;
+            font-family: monospace;
+            padding: 1em;
+          /*  height:100px;
+           */ width:915px;
+        }
+</style>
+
+<script id="vertex-shader" type="x-shader/x-vertex">
+
+attribute vec4 vPosition;
+attribute vec4 vNormal;
+
+
+varying vec4 fColor;
+
+
+uniform vec4 ambientProduct, diffuseProduct, specularProduct;
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+uniform mat4 camera_transform;
+uniform vec4 lightPosition;
+uniform float shininess;
+
+
+
+
+void
+main()
+{
+
+    vec3 pos = (modelViewMatrix * vPosition).xyz;
+    vec3 light = lightPosition.xyz;
+    vec3 L;
+    vec3 N;
+    
+    // check for directional light
+    
+    if(lightPosition.w == 0.0) L = normalize(lightPosition.xyz);
+    else L = normalize( lightPosition.xyz - pos );
+
+
+	
+    vec3 E = -normalize( pos );
+    vec3 H = normalize( L + E );
+
+    // Transform vertex normal into eye coordinates
+    
+  
+    N = normalize( (modelViewMatrix*vNormal).xyz);
+
+    
+    
+
+    // Compute terms in the illumination equation
+    vec4 ambient = ambientProduct;
+
+    float Kd = max( dot(L, N), 0.0 );
+    vec4  diffuse = Kd*diffuseProduct;
+
+    float Ks = pow( max(dot(N, H), 0.0), shininess );
+    vec4  specular = Ks * specularProduct;
+    
+    if( dot(L, N) < 0.0 ) {
+	specular = vec4(0.0, 0.0, 0.0, 1.0);
+    } 
+
+    gl_Position = projectionMatrix * camera_transform* modelViewMatrix * vPosition;
+    
+    fColor = ambient + diffuse +specular;
+
+    fColor.a = 1.0;
+}
+</script>
+
+<script id="fragment-shader" type="x-shader/x-fragment">
+
+precision mediump float;
+
+uniform int i;
+
+varying vec4 fColor;
+
+void
+
+main()
+{
+    vec4 c[7];
+    c[0] = fColor;
+    c[1] = vec4(1.0, 0.0, 0.0, 1.0);
+    c[2] = vec4(0.0, 1.0, 0.0, 1.0);
+    c[3] = vec4(0.0, 0.0, 1.0, 1.0);
+    c[4] = vec4(1.0, 1.0, 0.0, 1.0);
+    c[5] = vec4(0.0, 1.0, 1.0, 1.0);
+    c[6] = vec4(1.0, 0.0, 1.0, 1.0);
+    
+  
+    if(i==0) gl_FragColor = c[0];
+   
+    else if(i==1) gl_FragColor = c[1];
+    else if(i==2) gl_FragColor = c[2];
+    else if(i==3) gl_FragColor = c[3];
+    else if(i==4) gl_FragColor = c[4];
+    else if(i==5) gl_FragColor = c[5];
+    else if(i==6) gl_FragColor = c[1];
+}
+</script>
+
+
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+
+<script type="text/javascript" src="picker.js"></script>
+</head>
+<body>
+    <div class="description">
+
+    </div>
+    <div class="container">
+                <div id="overlay">
+                    <div><font size="6"> BITE Me  --A Retro 3D Game </font><span id="time"></span></div>
+            <div> <span id="angle"></span></div>
+        </div>
+    </div>
+</body>
+<canvas id="gl-canvas" width="960" height="640">
+        <audio id="start">
+    <source src="start.m4a" type="audio/mpeg">
+
+   Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+</div>
+</body>
+</html>

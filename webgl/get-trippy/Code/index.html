@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="trippy.js"></script>
+<script type="text/javascript" src="COTexturedCube.js"></script>
+
+<script id="shader-vs" type="x-shader/x-vertex">
+  attribute vec3 aVertexPosition;
+  attribute vec2 aTextureCoord;
+
+  uniform mat4 modelMatrix;
+  uniform mat4 viewMatrix;
+  uniform mat4 rotationMatrix;
+  uniform mat4 worldMatrix;
+  uniform mat4 navigationMatrix;
+
+  uniform mat4 projectionMatrix;
+  
+  varying vec2 vTextureCoord;
+
+  void main() {
+    gl_Position = projectionMatrix * navigationMatrix * worldMatrix *viewMatrix * modelMatrix * vec4(aVertexPosition, 1.0);
+    vec4 rotated = rotationMatrix * vec4(aTextureCoord, 0.0, 1.0);
+   vTextureCoord = vec2(rotated.x, rotated.y);
+  }
+</script>
+
+<script id="shader-fs" type="x-shader/x-fragment">
+  precision mediump float;
+
+  varying vec2 vTextureCoord;
+  uniform sampler2D uSampler;
+  
+  void main() {
+    // gl_FragColor = vec4(1.0, 1.0, 0.0, 1.0);
+    gl_FragColor =  texture2D( uSampler, vTextureCoord );
+  }
+</script>
+
+<body onload="start()">
+  <canvas id="gl-canvas" width="640" height="480">
+    Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+  </canvas>
+  <audio id="song">
+    <source src="turnDown.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+
+</html>

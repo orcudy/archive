@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BITE Me! | A 3-D Game in WebGL</title>
+    <meta charset="utf-8">
+        
+        <style>
+            .container {
+                position: relative;
+            }
+        #overlay {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: greenyellow;
+            font-family: monospace;
+            padding: 1em;
+        }
+        </style>
+
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="utils.js"></script>
+
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript" src="camera.js"></script>
+<script type="text/javascript" src="map.js"></script>
+
+<script type="text/javascript" src="collisionDetector.js"></script>
+<script type="text/javascript" src="collisionHandler.js"></script>
+
+<script type="text/javascript" src="vertices.js"></script>
+<script type="text/javascript" src="character.js"></script>
+<script type="text/javascript" src="hero.js"></script>
+<script type="text/javascript" src="enemy.js"></script>
+<script type="text/javascript" src="pelletRight.js"></script>
+
+
+<script type="text/javascript" src="renderer.js"></script>
+<script type="text/javascript" src="pelletRenderer.js"></script>
+<script type="text/javascript" src="heroRenderer.js"></script>
+<script type="text/javascript" src="enemyRenderer.js"></script>
+
+
+<!-- ******* ******* ******* ******* -->
+<!-- ******* Pellet Shaders  ******* -->
+<!-- ******* ******* ******* ******* -->
+
+<script id="shader-vs-pellet" type="x-shader/x-vertex">
+
+  attribute vec4 vertexPosition;
+  attribute vec3 vertexTranslation;
+  attribute vec4 vNormal;
+
+  uniform mat4 projectionMatrix;
+  uniform mat4 worldMatrix;
+  uniform mat4 viewMatrix;
+  uniform vec4 ambientProduct, diffuseProduct, specularProduct;
+  uniform vec4 lightPosition;
+  uniform float shininess;
+  
+  varying vec4 fColor;
+
+  void main() {
+      
+      vec3 pos = (viewMatrix * vertexPosition).xyz;
+      vec3 light = lightPosition.xyz;
+      vec3 L;
+      vec3 N;
+      
+      // check for directional light
+      if(lightPosition.w == 0.0) L = normalize(lightPosition.xyz);
+      else L = normalize( lightPosition.xyz - pos );
+      
+      vec3 E = -normalize( pos );
+      vec3 H = normalize( L + E );
+      
+      // Transform vertex normal into eye coordinates
+      N = normalize( (viewMatrix*vNormal).xyz);
+      
+      // Compute terms in the illumination equation
+      vec4 ambient = ambientProduct;
+      
+      float Kd = max( dot(L, N), 0.0 );
+      vec4  diffuse = Kd*diffuseProduct;
+      
+      float Ks = pow( max(dot(N, H), 0.0), shininess );
+      vec4  specular = Ks * specularProduct;
+      
+      if( dot(L, N) < 0.0 ) {
+          specular = vec4(0.0, 0.0, 0.0, 1.0);
+      }
+      
+    vec3 translatedVertexPosition = vec3(
+                                          vertexPosition.x + vertexTranslation.x,
+                                          vertexPosition.y + vertexTranslation.y,
+                                          vertexPosition.z + vertexTranslation.z
+                                        );
+
+  gl_Position = projectionMatrix * worldMatrix * viewMatrix * vec4(translatedVertexPosition, 1.0);
+  
+  fColor = ambient + diffuse +specular;
+  
+  fColor.a = 1.0;
+  }
+</script>
+
+<script id="shader-fs-pellet" type="x-shader/x-fragment">
+  precision mediump float;
+  
+  varying vec4 fColor;
+  
+  void main() {
+      
+    gl_FragColor = fColor;
+  }
+</script>
+
+
+<!-- ******* ******* ******* ******* -->
+<!-- *******   Hero Shaders  ******* -->
+<!-- ******* ******* ******* ******* -->
+
+<script id="shader-vs-hero" type="x-shader/x-vertex">
+    attribute vec3 vertexPosition;
+    attribute vec3 aVertexNormal;
+    attribute vec2 aTextureCoord;
+    
+    uniform mat4 projectionMatrix;
+    uniform mat4 worldMatrix;
+    uniform mat3 uNMatrix;
+    
+    uniform mat4 modelMatrix;
+    uniform mat4 viewMatrix;
+    
+    uniform vec3 uAmbientColor;
+    
+    uniform vec3 uLightingDirection;
+    uniform vec3 uDirectionalColor;
+    
+    varying vec2 vTextureCoord;
+    varying vec3 vLightWeighting;
+    
+    void main() {
+        
+      gl_Position = projectionMatrix * worldMatrix * viewMatrix * modelMatrix * vec4(vertexPosition, 1.0);
+      vTextureCoord = aTextureCoord;
+      vec3 transformedNormal = uNMatrix * aVertexNormal;
+      float directionalLightWeighting = max(dot(transformedNormal, uLightingDirection), 0.0);
+      vLightWeighting = uAmbientColor + uDirectionalColor * directionalLightWeighting;    
+    }
+ 
+</script>
+
+<script id="shader-fs-hero" type="x-shader/x-fragment">
+    precision mediump float;
+    varying vec2 vTextureCoord;
+    varying vec3 vLightWeighting;
+    
+    uniform sampler2D uSampler;
+    
+    void main() {
+        vec4 textureColor = texture2D(uSampler, vec2(vTextureCoord.s, vTextureCoord.t));
+        gl_FragColor = vec4(textureColor.rgb * vLightWeighting, textureColor.a);
+    }
+</script>
+
+
+<!-- ******* ******* ******* ******* -->
+<!-- *******  Enemy Shaders  ******* -->
+<!-- ******* ******* ******* ******* -->
+
+<script id="shader-vs-enemy" type="x-shader/x-vertex">
+
+  attribute vec3 vertexPosition;
+  attribute vec2 vTexCoord;
+  attribute vec4 vNormal;
+
+  varying float fTexturing;
+  uniform float texturing;
+  varying vec2 fTexCoord;
+  uniform float type;
+  varying float fType;
+  uniform float flag;
+  
+  uniform mat4 projectionMatrix;
+  uniform mat4 worldMatrix;
+  uniform mat4 viewMatrix;
+  uniform vec4 ambientProduct, diffuseProduct, specularProduct;
+  uniform vec4 lightPosition;
+  uniform float shininess;
+  
+  varying vec4 fColor;
+
+void
+main()
+{
+  if(type == 1.0 || type == 4.0 || type == 3.0){
+  vec4 temp = vec4(vertexPosition, 1.0);
+  vec3 eyePosition = (viewMatrix*vec4(0.0, 0.0, 3.0 , 1.0)  ).xyz;
+    vec3 L;
+    if(lightPosition.w == 0.0)  L = normalize( lightPosition.xyz);
+    else  L = normalize( (lightPosition - viewMatrix*temp) .xyz);
+
+    vec3 E = normalize( eyePosition);
+    
+    vec3 H = normalize( L + E );
+
+    // Transform vertex normal into eye coordinates
+    
+    vec3 N = normalize((vNormal*viewMatrix).xyz);
+
+    // Compute terms in the illumination equation
+    vec4 ambient = ambientProduct;
+
+    float Kd = max( dot(L, N), 0.0 );
+    vec4  diffuse = Kd*diffuseProduct;
+
+    float Ks = pow( max(dot(N, H), 0.0), 10000.0 );
+    vec4  specular = Ks * specularProduct;
+    
+    if( dot(L, N) < 0.0 ) {
+  specular = vec4(0.0, 0.0, 0.0, 1.0);
+    } 
+
+    gl_Position = projectionMatrix * worldMatrix * viewMatrix * vec4(vertexPosition, 1.0);
+   // gl_Position = vPosition;
+   
+    fColor = ambient + diffuse +specular;
+
+    fColor.a = 1.0; 
+  
+   if (type == 4.0 && flag == 1.0)
+    fColor = vec4(1.0, 0.3, 0.0, 1.0);
+  
+  }
+  else if (type == 2.0){
+  gl_Position = projectionMatrix * worldMatrix * viewMatrix * vec4(vertexPosition, 1.0);
+  fColor = vec4(1.0, 1.0, 1.0, 1.0);
+  }
+      fTexturing = texturing;
+  
+  fTexCoord = vTexCoord;
+}
+</script>
+
+
+<script id="shader-fs-enemy" type="x-shader/x-fragment">
+precision mediump float;
+varying vec4 fColor;
+varying vec2 fTexCoord;
+uniform sampler2D texture;
+varying float fTexturing;
+
+void
+main()
+{
+  if (fTexturing == 1.0)
+    gl_FragColor = fColor*texture2D( texture, fTexCoord);
+  else
+    gl_FragColor = fColor;
+  //gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+}
+</script>
+</head>
+
+
+
+<!-- ******* ******* ******* ******* -->
+<!-- *******  END Shaders  ******* -->
+<!-- ******* ******* ******* ******* -->
+
+<body onload="init()">
+  <div class="description">      
+  </div>
+  <div class="container">
+    <div id="overlay">
+      <div>Life: <span id="life"></span></div>
+      <div>Score: <span id="score"></span></div>
+    </div>
+  </div>
+  <canvas id="gl-canvas" width="960" height="640">
+    <audio id="chomp">
+    <source src="chomp.m4a" type="audio/mpeg">
+    Your browser doesn't appear to support the HTML5 <code>&lt;canvas&gt;</code> element.
+  </canvas>
+  <img id = "texImage" src = "eye.png" hidden></img>
+</body>
+
+</html>
