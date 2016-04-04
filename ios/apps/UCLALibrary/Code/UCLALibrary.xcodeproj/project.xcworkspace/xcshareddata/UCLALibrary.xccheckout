@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D5130E80-AA41-4F60-A3BD-AF8F16574521</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UCLALibrary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>64317CAAC0D99B4BC9AFDF6154724E3A5E2132C1</key>
+		<string>github.com:orcudy/UCLALibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Code/UCLALibrary.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>64317CAAC0D99B4BC9AFDF6154724E3A5E2132C1</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:orcudy/UCLALibrary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>64317CAAC0D99B4BC9AFDF6154724E3A5E2132C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>64317CAAC0D99B4BC9AFDF6154724E3A5E2132C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UCLALibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

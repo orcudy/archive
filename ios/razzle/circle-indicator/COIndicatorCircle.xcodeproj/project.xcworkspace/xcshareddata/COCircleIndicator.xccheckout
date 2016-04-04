@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7BC5B787-98A6-4DC4-A45D-47BD9F3070D2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>COCircleIndicator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CE287FAD41E79B71951915F1DD14D4AEDA9E06E8</key>
+		<string>github.com:orcudy/COCircleIndicator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>COCircleIndicator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CE287FAD41E79B71951915F1DD14D4AEDA9E06E8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:orcudy/COCircleIndicator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CE287FAD41E79B71951915F1DD14D4AEDA9E06E8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE287FAD41E79B71951915F1DD14D4AEDA9E06E8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>COCircleIndicator</string>
+		</dict>
+	</array>
+</dict>
+</plist>

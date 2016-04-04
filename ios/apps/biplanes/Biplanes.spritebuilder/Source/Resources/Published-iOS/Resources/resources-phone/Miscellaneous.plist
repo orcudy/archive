@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Resources/Miscellaneous/arrows-03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{471, 1}, {133, 101}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {133, 101}}</string>
+			<key>sourceSize</key>
+			<string>{133, 101}</string>
+		</dict>
+		<key>Resources/Miscellaneous/arrows-04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{535, 468}, {29, 45}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {29, 45}}</string>
+			<key>sourceSize</key>
+			<string>{29, 45}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{65, 1}, {62, 330}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {62, 330}}</string>
+			<key>sourceSize</key>
+			<string>{62, 330}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{649, 1}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{716, 73}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{644, 76}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{129, 1}, {62, 330}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {62, 330}}</string>
+			<key>sourceSize</key>
+			<string>{62, 330}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{193, 1}, {62, 330}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {62, 330}}</string>
+			<key>sourceSize</key>
+			<string>{62, 330}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {62, 330}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {62, 330}}</string>
+			<key>sourceSize</key>
+			<string>{62, 330}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-08-new.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{569, 136}, {73, 73}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {73, 73}}</string>
+			<key>sourceSize</key>
+			<string>{73, 73}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{574, 1}, {73, 73}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {73, 73}}</string>
+			<key>sourceSize</key>
+			<string>{73, 73}</string>
+		</dict>
+		<key>Resources/Miscellaneous/assets-09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{675, 148}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>Resources/Miscellaneous/blackArrow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{471, 136}, {128, 96}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 16}, {128, 96}}</string>
+			<key>sourceSize</key>
+			<string>{128, 128}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttonWhite.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{488, 468}, {45, 30}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {45, 30}}</string>
+			<key>sourceSize</key>
+			<string>{45, 30}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{471, 266}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{622, 211}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{524, 266}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{630, 266}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-05-flipped.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{569, 211}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/buttons-05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{577, 266}, {51, 53}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {51, 53}}</string>
+			<key>sourceSize</key>
+			<string>{51, 53}</string>
+		</dict>
+		<key>Resources/Miscellaneous/centerPivot.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{574, 76}, {52, 52}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6, 6}, {52, 52}}</string>
+			<key>sourceSize</key>
+			<string>{64, 64}</string>
+		</dict>
+		<key>Resources/Miscellaneous/clouds-back.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{178, 333}, {256, 167}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {256, 167}}</string>
+			<key>sourceSize</key>
+			<string>{256, 167}</string>
+		</dict>
+		<key>Resources/Miscellaneous/clouds-front.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{436, 321}, {256, 145}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {256, 145}}</string>
+			<key>sourceSize</key>
+			<string>{256, 145}</string>
+		</dict>
+		<key>Resources/Miscellaneous/dropDown.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{436, 468}, {50, 37}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {50, 37}}</string>
+			<key>sourceSize</key>
+			<string>{50, 37}</string>
+		</dict>
+		<key>Resources/Miscellaneous/face-01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{600, 494}, {24, 14}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 14}}</string>
+			<key>sourceSize</key>
+			<string>{24, 14}</string>
+		</dict>
+		<key>Resources/Miscellaneous/face-02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{616, 468}, {23, 14}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {23, 14}}</string>
+			<key>sourceSize</key>
+			<string>{23, 14}</string>
+		</dict>
+		<key>Resources/Miscellaneous/face-03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{600, 468}, {24, 14}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {24, 14}}</string>
+			<key>sourceSize</key>
+			<string>{24, 14}</string>
+		</dict>
+		<key>Resources/Miscellaneous/outOfBoundArrow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{582, 468}, {16, 28}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 2}, {16, 28}}</string>
+			<key>sourceSize</key>
+			<string>{32, 32}</string>
+		</dict>
+		<key>Resources/Miscellaneous/popupWhite.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{257, 1}, {318, 212}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {318, 212}}</string>
+			<key>sourceSize</key>
+			<string>{319, 213}</string>
+		</dict>
+		<key>Resources/Miscellaneous/whiteLine.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{178, 502}, {7, 20}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {7, 20}}</string>
+			<key>sourceSize</key>
+			<string>{7, 20}</string>
+		</dict>
+		<key>Resources/Miscellaneous/whiteSquare.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 333}, {175, 175}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {175, 175}}</string>
+			<key>sourceSize</key>
+			<string>{175, 175}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+		<key>textureFileName</key>
+		<string>Miscellaneous.png</string>
+	</dict>
+</dict>
+</plist>

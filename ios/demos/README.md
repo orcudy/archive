@@ -1,0 +1,5 @@
+| name | date developed | status |
+| ------ | -------------- | ------ |
+| core-motion | summer 2015 | finished |
+| share-button | summer 2015 | finished |
+| uisearch-controller | summer 2015 | finished |

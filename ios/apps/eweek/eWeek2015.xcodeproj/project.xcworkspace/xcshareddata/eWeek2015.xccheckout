@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0AE46715-3B4C-46A8-A53A-574B4349E9A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>eWeek2015</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE9D1B503D88CA4F0B1285555A1D600072CD7ECB</key>
+		<string>github.com:chrisorcutt/eWeek.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>eWeek2015.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE9D1B503D88CA4F0B1285555A1D600072CD7ECB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:chrisorcutt/eWeek.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE9D1B503D88CA4F0B1285555A1D600072CD7ECB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE9D1B503D88CA4F0B1285555A1D600072CD7ECB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>eWeek2015</string>
+		</dict>
+	</array>
+</dict>
+</plist>

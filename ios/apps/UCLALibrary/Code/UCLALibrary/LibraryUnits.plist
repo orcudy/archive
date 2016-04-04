@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>unit</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>5</integer>
+			<key>code</key>
+			<string>ART</string>
+			<key>name</key>
+			<string>Arts Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+			<key>code</key>
+			<string>BIO</string>
+			<key>name</key>
+			<string>Biomedical Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>29</integer>
+			<key>code</key>
+			<string>CLK</string>
+			<key>name</key>
+			<string>Clark Memorial Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>54</integer>
+			<key>code</key>
+			<string>CLL</string>
+			<key>name</key>
+			<string>CLICC Lab</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>55</integer>
+			<key>code</key>
+			<string>CLL</string>
+			<key>name</key>
+			<string>CLICC Classrooms</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>7</integer>
+			<key>code</key>
+			<string>COL</string>
+			<key>name</key>
+			<string>College Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>9</integer>
+			<key>code</key>
+			<string>COL</string>
+			<key>name</key>
+			<string>Night Powell</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>10</integer>
+			<key>code</key>
+			<string>EAL</string>
+			<key>name</key>
+			<string>East Asian Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>31</integer>
+			<key>code</key>
+			<string>ENG</string>
+			<key>name</key>
+			<string>English Reading Room</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>47</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>College Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>48</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>Research Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>49</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>Arts Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>50</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>Music Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>51</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>Biomed Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>52</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>SEL/EMS Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>53</integer>
+			<key>code</key>
+			<string>LAP</string>
+			<key>name</key>
+			<string>SEL/Geology Library Laptop Lending</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>14</integer>
+			<key>code</key>
+			<string>MAN</string>
+			<key>name</key>
+			<string>Management Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>16</integer>
+			<key>code</key>
+			<string>MUS</string>
+			<key>name</key>
+			<string>Music Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>56</integer>
+			<key>code</key>
+			<string>RC</string>
+			<key>name</key>
+			<string>Research Commons</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>19</integer>
+			<key>code</key>
+			<string>REP</string>
+			<key>name</key>
+			<string>Reprographic Serv.</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>24</integer>
+			<key>code</key>
+			<string>SEL</string>
+			<key>name</key>
+			<string>SEL Chemistry</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>25</integer>
+			<key>code</key>
+			<string>SEL</string>
+			<key>name</key>
+			<string>SEL Eng &amp; Math Sci</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>26</integer>
+			<key>code</key>
+			<string>SEL</string>
+			<key>name</key>
+			<string>SEL Geo./Geophys.</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>27</integer>
+			<key>code</key>
+			<string>SRL</string>
+			<key>name</key>
+			<string>SRLF</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>28</integer>
+			<key>code</key>
+			<string>UAR</string>
+			<key>name</key>
+			<string>University Archives</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>32</integer>
+			<key>code</key>
+			<string>UES</string>
+			<key>name</key>
+			<string>UCLA Lab School Library</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>20</integer>
+			<key>code</key>
+			<string>YRL</string>
+			<key>name</key>
+			<string>Research Library</string>
+		</dict>
+	</array>
+</dict>
+</plist>

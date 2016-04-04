@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="COMapView" customModule="COMapView" customModuleProvider="target">
+            <connections>
+                <outlet property="footerLabel" destination="8g6-ai-V0T" id="mNs-Tj-ga6"/>
+                <outlet property="footerView" destination="q8U-SO-7QD" id="a1i-FF-CPl"/>
+                <outlet property="mapView" destination="Oli-Mw-iQt" id="Eaf-9Z-ikz"/>
+                <outlet property="view" destination="iN0-l3-epB" id="EFL-VI-GL9"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Oli-Mw-iQt">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="5pk-oT-UAg" appends="YES" id="zm1-51-Ydc"/>
+                    </connections>
+                </mapView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8U-SO-7QD">
+                    <rect key="frame" x="8" y="322" width="384" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Placeholder Text" lineBreakMode="tailTruncation" numberOfLines="2" minimumScaleFactor="0.80000000000000027" translatesAutoresizingMaskIntoConstraints="NO" id="8g6-ai-V0T">
+                            <rect key="frame" x="20" y="26" width="344" height="18"/>
+                            <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="13"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <size key="shadowOffset" width="0.0" height="-2"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="8g6-ai-V0T" firstAttribute="top" secondItem="q8U-SO-7QD" secondAttribute="top" constant="10" id="6ND-3R-kVt"/>
+                        <constraint firstAttribute="height" constant="70" id="9AE-ab-W4l"/>
+                        <constraint firstAttribute="bottom" secondItem="8g6-ai-V0T" secondAttribute="bottom" constant="10" id="J00-Qj-dAc"/>
+                        <constraint firstAttribute="centerY" secondItem="8g6-ai-V0T" secondAttribute="centerY" id="dVd-kv-9GK"/>
+                        <constraint firstItem="8g6-ai-V0T" firstAttribute="leading" secondItem="q8U-SO-7QD" secondAttribute="leading" constant="20" id="eo5-IX-EYS"/>
+                        <constraint firstAttribute="trailing" secondItem="8g6-ai-V0T" secondAttribute="trailing" constant="20" id="rCY-DE-BHh"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6ND-3R-kVt"/>
+                            <exclude reference="J00-Qj-dAc"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="sSK-p6-87t" appends="YES" id="Rzj-Kx-r2s"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Oli-Mw-iQt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1UN-Lu-lgZ"/>
+                <constraint firstAttribute="trailing" secondItem="q8U-SO-7QD" secondAttribute="trailing" constant="8" id="6km-c7-X6a"/>
+                <constraint firstAttribute="bottom" secondItem="q8U-SO-7QD" secondAttribute="bottom" constant="8" id="FfG-Ub-TbN"/>
+                <constraint firstAttribute="trailing" secondItem="Oli-Mw-iQt" secondAttribute="trailing" id="S5r-A0-NqS"/>
+                <constraint firstAttribute="bottom" secondItem="Oli-Mw-iQt" secondAttribute="bottom" id="e6Z-Z1-wUw"/>
+                <constraint firstItem="Oli-Mw-iQt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jcc-P7-foc"/>
+                <constraint firstItem="q8U-SO-7QD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="xRR-Uu-Iap"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="511" y="152.5"/>
+        </view>
+        <tapGestureRecognizer id="5pk-oT-UAg">
+            <connections>
+                <action selector="openMapsApp:" destination="-1" id="S26-i0-ppa"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="sSK-p6-87t">
+            <connections>
+                <action selector="openMapsApp:" destination="-1" id="LmD-o7-E7f"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

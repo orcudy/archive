@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Resources/InitialReleaseArt/blue-plane-large-1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3718, 916}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/blue-plane-large-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1985, 3567}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/blue-plane-large-3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2193, 3567}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/button-levels.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1985, 2851}, {464, 218}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {464, 218}}</string>
+			<key>sourceSize</key>
+			<string>{464, 219}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/button-retry.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 2036}, {464, 219}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {464, 219}}</string>
+			<key>sourceSize</key>
+			<string>{464, 219}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/chris mockup-15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2401, 3310}, {215, 240}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {215, 240}}</string>
+			<key>sourceSize</key>
+			<string>{215, 240}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/chris mockup-16.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2205, 2851}, {215, 240}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {215, 240}}</string>
+			<key>sourceSize</key>
+			<string>{215, 240}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/chris mockup-17.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2269, 3817}, {216, 240}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {216, 240}}</string>
+			<key>sourceSize</key>
+			<string>{216, 240}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/chris mockup-18.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2205, 3093}, {215, 240}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {215, 240}}</string>
+			<key>sourceSize</key>
+			<string>{215, 240}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/goal.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {192, 1632}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {192, 1632}}</string>
+			<key>sourceSize</key>
+			<string>{192, 1632}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-button-blue.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{607, 1250}, {354, 204}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {354, 204}}</string>
+			<key>sourceSize</key>
+			<string>{354, 204}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-button-grey.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{401, 1250}, {354, 204}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {354, 204}}</string>
+			<key>sourceSize</key>
+			<string>{354, 204}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-button-red.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{813, 1250}, {354, 204}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {354, 204}}</string>
+			<key>sourceSize</key>
+			<string>{354, 204}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-button-yellow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{195, 1250}, {354, 204}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {354, 204}}</string>
+			<key>sourceSize</key>
+			<string>{354, 204}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-failure.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1635}, {1262, 747}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1262, 747}}</string>
+			<key>sourceSize</key>
+			<string>{1262, 747}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-success just-text.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2039, 1250}, {896, 347}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {896, 347}}</string>
+			<key>sourceSize</key>
+			<string>{896, 347}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/level-success.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1041, 2855}, {1211, 540}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1211, 540}}</string>
+			<key>sourceSize</key>
+			<string>{1211, 541}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/lock.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3926, 916}, {93, 114}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {93, 114}}</string>
+			<key>sourceSize</key>
+			<string>{93, 114}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/mockup.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1583, 2851}, {1016, 400}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1016, 400}}</string>
+			<key>sourceSize</key>
+			<string>{1016, 400}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/ok.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1583, 3869}, {476, 225}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {476, 225}}</string>
+			<key>sourceSize</key>
+			<string>{476, 225}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/pause-button-level.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2703, 1599}, {486, 221}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {486, 221}}</string>
+			<key>sourceSize</key>
+			<string>{487, 221}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/pause-button-menu.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 1599}, {486, 221}}</string>
+			<key>offset</key>
+			<string>{1, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 0}, {486, 221}}</string>
+			<key>sourceSize</key>
+			<string>{487, 221}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/pause-button-resume.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 1822}, {469, 212}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {469, 212}}</string>
+			<key>sourceSize</key>
+			<string>{469, 212}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/pause-menu.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 2899}, {1038, 1153}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1038, 1153}}</string>
+			<key>sourceSize</key>
+			<string>{1038, 1153}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/pause.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2487, 3767}, {205, 213}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {205, 213}}</string>
+			<key>sourceSize</key>
+			<string>{205, 213}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/play.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3718, 178}, {736, 347}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {736, 347}}</string>
+			<key>sourceSize</key>
+			<string>{736, 347}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/powerup-button.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2401, 3552}, {205, 213}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {205, 213}}</string>
+			<key>sourceSize</key>
+			<string>{205, 213}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/powerup.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2608, 3552}, {204, 212}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {204, 212}}</string>
+			<key>sourceSize</key>
+			<string>{205, 213}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/powerup_fastForward.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2694, 3766}, {204, 212}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {204, 212}}</string>
+			<key>sourceSize</key>
+			<string>{205, 213}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/powerup_slowdown.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 2257}, {204, 212}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1, 1}, {204, 212}}</string>
+			<key>sourceSize</key>
+			<string>{205, 213}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/restart.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 2471}, {204, 212}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {204, 212}}</string>
+			<key>sourceSize</key>
+			<string>{204, 212}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/star.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 4054}, {34, 31}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {34, 31}}</string>
+			<key>sourceSize</key>
+			<string>{34, 31}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/success just-text.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3186, 1}, {896, 175}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {896, 175}}</string>
+			<key>sourceSize</key>
+			<string>{896, 175}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/text-control-charlie.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3572, 178}, {1036, 144}}</string>
+			<key>offset</key>
+			<string>{1, 2}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7, 6}, {1036, 144}}</string>
+			<key>sourceSize</key>
+			<string>{1048, 161}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/text-control-marlie.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2937, 1250}, {1066, 144}}</string>
+			<key>offset</key>
+			<string>{1, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{7, 6}, {1066, 144}}</string>
+			<key>sourceSize</key>
+			<string>{1078, 161}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/text-control.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3186, 178}, {1036, 384}}</string>
+			<key>offset</key>
+			<string>{1, 5}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{7, 0}, {1036, 384}}</string>
+			<key>sourceSize</key>
+			<string>{1048, 395}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/text-remember.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2937, 1396}, {1020, 322}}</string>
+			<key>offset</key>
+			<string>{-1, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{8, 5}, {1020, 322}}</string>
+			<key>sourceSize</key>
+			<string>{1038, 338}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/text-time.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1019, 1250}, {1018, 350}}</string>
+			<key>offset</key>
+			<string>{-4, 2}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{6, 6}, {1018, 350}}</string>
+			<key>sourceSize</key>
+			<string>{1038, 367}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box-blank-shorter.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1579, 1602}, {1247, 634}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {1247, 634}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 635}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box-blank.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1792, 1}, {1247, 766}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {1247, 766}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 767}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box-blanknew.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1024, 1}, {1247, 766}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {1247, 766}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 767}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box-blanknewnew.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2560, 1}, {1247, 624}}</string>
+			<key>offset</key>
+			<string>{0, -72}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 143}, {1247, 624}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 767}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box-marlie.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{195, 1}, {1247, 827}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1247, 827}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 827}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/tutorial-box.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{750, 1606}, {1247, 827}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1247, 827}}</string>
+			<key>sourceSize</key>
+			<string>{1247, 827}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/yellow-plane-large-1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2061, 3817}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/yellow-plane-large-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1985, 3317}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+		<key>Resources/InitialReleaseArt/yellow-plane-large-3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2193, 3317}, {248, 206}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {248, 206}}</string>
+			<key>sourceSize</key>
+			<string>{248, 206}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>InitialReleaseArt.png</string>
+	</dict>
+</dict>
+</plist>

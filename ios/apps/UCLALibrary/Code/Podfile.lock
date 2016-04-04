@@ -1,0 +1,18 @@
+PODS:
+  - Bond (4.0.1)
+  - Realm (0.95.3):
+    - Realm/Headers (= 0.95.3)
+  - Realm/Headers (0.95.3)
+  - RealmSwift (0.95.3):
+    - Realm (= 0.95.3)
+
+DEPENDENCIES:
+  - Bond (~> 4.0)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Bond: c2171736b89ab532587728b77acf40bca1091592
+  Realm: 55885fa05865344994ad8b56da96669ffa39fbf1
+  RealmSwift: 586df4b5a6d01473d2653b16e9fe7debce4a87ed
+
+COCOAPODS: 0.37.2

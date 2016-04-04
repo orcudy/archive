@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Resources/Obstacles/obExtraLongNorm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {136, 1118}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{4, 11}, {136, 1118}}</string>
+			<key>sourceSize</key>
+			<string>{144, 1140}</string>
+		</dict>
+		<key>Resources/Obstacles/obExtraSmallNorm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 139}, {136, 594}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8, 5}, {136, 594}}</string>
+			<key>sourceSize</key>
+			<string>{153, 602}</string>
+		</dict>
+		<key>Resources/Obstacles/obLongNorm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 277}, {135, 1012}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {135, 1012}}</string>
+			<key>sourceSize</key>
+			<string>{135, 1012}</string>
+		</dict>
+		<key>Resources/Obstacles/obMedNorm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1121, 1}, {136, 704}}</string>
+			<key>offset</key>
+			<string>{1, -2}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{24, 16}, {136, 704}}</string>
+			<key>sourceSize</key>
+			<string>{182, 733}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{2048, 512}</string>
+		<key>textureFileName</key>
+		<string>Obstacles.png</string>
+	</dict>
+</dict>
+</plist>
